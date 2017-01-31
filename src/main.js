@@ -1,5 +1,5 @@
-
-let textContent = require('./content')
+require('./app.scss')
+textContent = require('./content')
 
 let appendListItem = () => {
   let newItem = document.createElement("li")

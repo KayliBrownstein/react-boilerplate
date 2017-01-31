@@ -8,6 +8,14 @@ module.exports = {
     path: path.resolve('./build'),
     filename: 'bundle.js'
   },
+  module: {
+    loaders: [
+      {
+        test: /\.scss$/,
+        loaders: ['style-loader', 'css-loader', 'sass-loader']
+      }
+    ]
+  },
   devtool: 'eval-source-map',
   devServer: {
     contentBase: './build'
