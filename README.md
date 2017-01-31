@@ -8,7 +8,7 @@
 ## Getting Started
 
 ```sh
-$ npm install -g webpack
-$ webpack
-$ open build/index.html
+$ npm install -g webpack webpack-dev-server
+$ webpack-dev-server
+$ open http://localhost:8080/
 ```
