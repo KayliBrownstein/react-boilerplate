@@ -2,13 +2,18 @@
 
 ## Technologies
 
-* [x] React
+* [ ] React
 * [x] Webpack
+* [x] Babel
 
 ## Getting Started
 
 ```sh
 $ npm install -g webpack webpack-dev-server
-$ webpack-dev-server
-$ open http://localhost:8080/
+$ npm start
 ```
+
+## Resources
+
+* [Webpack Configuration](https://github.com/webpack/docs/wiki/configuration)
+* [Babel Presets](https://babeljs.io/docs/plugins/preset-latest/)
