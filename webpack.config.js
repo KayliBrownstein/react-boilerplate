@@ -8,6 +8,7 @@ module.exports = {
     path: path.resolve('./build'),
     filename: 'bundle.js'
   },
+  devtool: 'eval-source-map',
   devServer: {
     contentBase: './build'
   }
