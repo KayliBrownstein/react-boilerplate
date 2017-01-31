@@ -5,7 +5,7 @@
   "main": "webpack.config.js",
   "scripts": {
     "start": "./node_modules/.bin/webpack-dev-server --inline --hot",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "./node_modules/.bin/karma start --single-run"
   },
   "repository": {
     "type": "git",
@@ -27,6 +27,7 @@
     "karma": "^1.4.1",
     "karma-jasmine": "^1.1.0",
     "karma-phantomjs-launcher": "^1.0.2",
+    "karma-webpack": "^2.0.2",
     "node-sass": "^4.4.0",
     "phantomjs-prebuilt": "^2.1.14",
     "sass-loader": "^4.1.1",
