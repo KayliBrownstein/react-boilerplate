@@ -5,21 +5,29 @@
 * [x] React
 * [x] Webpack
 * [x] Babel
-* [ ] Karma
-* [ ] Jasmine
-* [ ] PhantomJS
+* [x] Karma
+* [x] Jasmine
+* [x] PhantomJS
 
 ## Getting Started
+
+Install dependencies and start the application:
 
 ```sh
 $ npm install -g webpack webpack-dev-server karma-cli
 $ npm start
 ```
 
-Run the test suite
+Run the test suite once:
 
 ```sh
 $ npm test
+```
+
+Run the test suite, continuously:
+
+```sh
+$ karma start
 ```
 
 ## Resources
