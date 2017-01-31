@@ -2,7 +2,7 @@
 
 ## Technologies
 
-* [ ] React
+* [x] React
 * [x] Webpack
 * [x] Babel
 
