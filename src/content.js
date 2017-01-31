@@ -1,1 +1,1 @@
-module.exports = "I am an unholy list item!"
+module.exports = "I am a normal list item."
