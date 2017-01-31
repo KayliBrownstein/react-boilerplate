@@ -5,6 +5,9 @@
 * [x] React
 * [x] Webpack
 * [x] Babel
+* [ ] Karma
+* [ ] Jasmine
+* [ ] PhantomJS
 
 ## Getting Started
 
