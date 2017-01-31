@@ -1,1 +1,1 @@
-module.exports = "I am a list item"
+module.exports = "I am a mighty list item!"

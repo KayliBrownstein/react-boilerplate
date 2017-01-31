@@ -9,6 +9,6 @@
 
 ```sh
 $ npm install -g webpack
-$ webpack ./src/main.js ./build/bundle.js
+$ webpack
 $ open build/index.html
 ```
