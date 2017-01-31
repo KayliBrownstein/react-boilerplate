@@ -12,7 +12,7 @@
 ## Getting Started
 
 ```sh
-$ npm install -g webpack webpack-dev-server
+$ npm install -g webpack webpack-dev-server karma-cli
 $ npm start
 ```
 
